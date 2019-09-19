@@ -21,3 +21,15 @@ for i in range(1,11):
         continue
     else:
         print(i)
+
+
+list = {"name": "He", "She": "It"}
+connector = " is "
+print(connector.join(list))
+
+string = "***Welcome***"
+print(string.lstrip("*"))
+print(string.rstrip("*"))
+
+alnum = "Hello555"
+print(alnum.isalnum())
