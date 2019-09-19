@@ -33,3 +33,10 @@ print(string.rstrip("*"))
 
 alnum = "Hello555"
 print(alnum.isalnum())
+
+print(ord("A"))
+print(chr(65))
+
+str = "his name is pum"
+my_list = str.split()
+print(my_list.pop(3))
